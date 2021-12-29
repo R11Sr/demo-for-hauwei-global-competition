@@ -1,0 +1,104 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+
+
+ $yellowgreen: #93b200;
+ $burntOrange : #DBA755;
+ $deepBurntOrange : #C88D2F;
+ $deepBlue: #39728A;
+ $lightGray: #CCDBDC;
+ $deepGreen: #214E34;
+ $kellyGreen: #5DC004;
+ $warning : $deepBurntOrange;
+ $success : $deepGreen;
+ $primary : $lightGray;
+ $info:$kellyGreen;
+ 
+
+
+
+
+
+  @import "bulma";
+
+
+  
+  .navbar-brand .title{
+ 
+     color:white;
+  }
+ 
+  .navbar-menu .control *{
+     color:white;
+ 
+  }
+  
+  .landing {
+   background-image: url(heroimage_edit_2.png);
+  }
+
+
+
+require leaflet
+
+   h1{
+   margin-bottom: 55px !important;
+   color: #fff !important;
+   }
+   .content ul{
+   padding: 0;
+   margin: 0;
+   }
+   .content ul li{
+   list-style-type: none;
+   text-align: center;
+   padding: 5px;
+   }
+   .content ul li a{
+   color: #fff;
+   font-size: 18px;
+   }
+   .content ul li a:hover{
+   color: #ddd;
+   }
+   h6{
+   text-align: center;
+   color: #fff !important;
+   font-size: 30px !important;
+   margin-bottom: 25px !important;
+   }
+   .is-success{
+   margin-bottom: 15px;
+   }
+   .fa{
+   padding-right: 10px;
+   font-size: 24px;
+   cursor: pointer;
+   }
+   .control.has-icons-left .icon.is-left{
+   left: 5px;
+   }
+   p{
+   font-size: 18px;
+   }
+
+   @media(max-width: 768px){
+   .bottom p,.has-text-right{
+   text-align: center !important;
+   }
+   }

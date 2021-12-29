@@ -1,0 +1,23 @@
+  <div class="container">
+    <div id="navMenu" class="navbar-menu">
+      <div class="navbar-start">
+
+        <%= link_to  root_path, class: "navbar-item" do%>
+          <%= image_tag 'EcoClean logo and text.png' %>
+        <% end %>
+ 
+
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <%= link_to 'Timeline', deploy_path, class: "button is-dark" %>
+          <a href="https://report-distribution.herokuapp.com/" target="blank" class= "button is-dark">Reports Distribution</a>
+            <%= link_to 'Download', download_path, class: "button is-dark" %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

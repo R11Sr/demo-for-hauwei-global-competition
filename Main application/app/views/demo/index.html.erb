@@ -1,0 +1,383 @@
+<%= render 'navbar' %>
+
+<section class="hero is-succes is-fullheight-with-navbar landing mb-4">
+  <div class="hero-body">
+    <p class="title is-1 has-text-dark ">
+      EcoCleanJa! <br> The solution to Jamaica's <br> Garbage Collection Problem
+    </p>
+  </div>
+</section>
+
+
+<div class="is-divider" data-content="-"></div>
+
+
+<section class="hero is-medium is-success">
+    <div class="hero-body">
+    <p class="title">
+     Why is a smart collection system needed in Jamaica?
+    </p>
+    <p class="subtitle content is-large">
+      A collection system is needed so that authorities can provide a timely response to dynamic waste disposal  issues reported by citizens.
+    </p>
+  </div>
+</section>
+
+<%# Tiles %>
+
+<div class="tile is-ancestor">
+  <div class="tile is-vertical is-12">
+
+
+    <%# Sign up page %>
+
+    <div class="tile">
+
+          <div class="tile is-parent">
+        <article class="tile is-child notification is-info">
+          <p class="title">Main screen</p>
+          <%# <p class="subtitle">With an image</p> %>
+          <figure class="image is-3by5">
+            <%= image_tag 'main-bg-rem.png' %>
+            <%# <img src="/assets/main-bg-rem.png"> %>
+          </figure>
+        </article>
+      </div>
+
+      <div class="tile is-parent is-vertical">
+
+        <article class="tile is-child notification is-primary">
+          <p class="title">Simple easy to use application</p>
+          <br>
+          <p class="subtitle content is-large">
+          Users can sign up by using an email address, icloud or google account.
+          <br>
+          <br>
+          Unique usernames are assigned and used for the submission of all report.
+          <br>
+          <br>
+          Submiting anonymous reports obscures one's username.
+          </p>
+            
+        </article>
+
+        <article class="tile is-child notification  is-success">
+          <p class="title">Visually appealing design</p>
+          <br>
+          <p class="subtitle content is-large">The material design and palatable colours make the application user friendly. <br><br> The dark theme is also a part of the modern trend it mobile and web application development. <br><br> In further releases accessibility functionality will be added for the blind.</p>
+        </article>
+      </div>
+    </div>
+
+    <%# 2nd tile set REPORT %>
+    <div class="tile">
+
+
+
+      <div class="tile is-parent is-vertical">
+      
+        <article class="tile is-child notification is-primary">
+          <p class="title">Submit a report</p>
+          <br>
+          <p class="subtitle content is-large">Reports made by the residents are directly transmitted to the authorities. <br><br>These texts are analysed at a dedicated help desk. <br><br>Additionally, image submission are analysed using to ascertain the severity of the pile up. </p>
+        </article>
+
+        <article class="tile is-child notification  is-success">
+          <p class="title">Details of submission</p>
+          <br>
+          <p class="subtitle content is-large">Submissions may include photos and also any pertinent text, geolocation is embedded by default for each submission. <br><br>Once a submission is made it is reflected in the profile of that user. </p>
+        </article>
+      </div>
+
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-info">
+          <p class="title">Report an Issue</p>
+          <%# <p class="subtitle">With an image</p> %>
+          <figure class="image is-3by5">
+            <%= image_tag 'report.png' %>
+          </figure>
+        </article>
+      </div>
+
+    </div>
+
+
+  <%# 1st tile set FORUM%>
+
+
+    <div class="tile">
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-info">
+          <p class="title">Forum</p>
+          <%# <p class="subtitle">With an image</p> %>
+          <figure class="image is-3by5">
+          <%= image_tag 'dis-edited.png' %>
+          </figure>
+        </article>
+      </div>
+
+      <div class="tile is-parent is-vertical">
+
+        <article class="tile is-child notification is-primary">
+          <p class="title">Discussion Forum</p>
+          <br>
+          <p class="subtitle content is-large">Where everyone can discuss the issues that they are facing as it regards garbage collection with the authorites. <br><br> They can also discuss combined efforts that are being made to mitigate illegal dumping activities. <br><br> This integrates with a strong neighbourhood watch program, where the collective good is superlative to the individual.</p>
+        </article>
+
+        <article class="tile is-child notification  is-primary">
+          <p class="title">Explaination of issues</p>
+          <br>
+          <p class="subtitle content is-large">The authorites can use this medium to have 'town hall' discussion to see how best they can continue to serve. <br><br>This is especially helpful for issues that are common or repeated.  </p>
+        </article>
+      </div>
+
+
+
+    </div>
+
+    <%# Report page %>
+
+    <div class="tile">
+      <div class="tile is-parent is-vertical">
+
+        <article class="tile is-child notification is-primary">
+          <p class="title">View Report</p>
+          <br>
+          <p class="subtitle content is-large">A user can see their reports and that of other users. <br><br> They can also use this to see solutions or work-arounds that have been proposed to increase efficiency for specific use case. </p>
+        </article>
+
+        <article class="tile is-child notification  is-primary">
+          <p class="title">Edit Report</p>
+          <br>
+          <p class="subtitle content is-large">For an issue that a specific user has reported, the option exists for a limited time to update the report made. <br><br> This prevents the user from unknowingly submit inaccurate, incomplete report.</p>
+        </article>
+      </div>
+
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-info">
+          <p class="title">Report</p>
+          <%# <p class="subtitle">With an image</p> %>
+          <figure class="image is-3by5">
+          <%= image_tag 'details-edited.png' %>
+          </figure>
+        </article>
+      </div>
+    </div>
+
+
+    <%# Live chat page  %>
+
+    <div class="tile">
+
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-info">
+          <p class="title">Direct contact with collectors</p>
+          <figure class="image is-3by5">
+          <%= image_tag 'CHAT-removebg-preview.png' %>
+          </figure>
+        </article>
+      </div>
+
+      <div class="tile is-parent is-vertical">
+
+        <article class="tile is-child notification is-primary">
+          <p class="title">Clarification</p>
+          <br>
+          <p class="subtitle content is-large">The collection entites can contact a user who submitted a report directly to have clarity on the issue. <br><br>This helps the collectors obtain additional information on a report made, and also to boost customer satisfaction. </p>
+        </article>
+
+        <article class="tile is-child notification  is-success">
+          <p class="title">Engagement</p>
+          <br>
+          <p class="subtitle content is-large">Communication over this form fosters a healthy relationship between the public and collectors.</p>
+        </article>
+      </div>
+
+
+    </div>
+
+    <%# illegal Dumping %>
+
+
+    <div class="tile">
+      <div class="tile is-parent is-vertical">
+
+        <article class="tile is-child notification is-primary">
+          <p class="title">Anonymous Reporting</p>
+          <br>
+          <p class="subtitle content is-large">The option is available for users to make a confidential report about suspecious activites. <br><br>This helps the break the cycle of 'snitches must die' in Jamaica and help to reveal the perpetrators. </p>
+        </article>
+
+        <article class="tile is-child notification  is-success">
+          <p class="title">Anonymity</p>
+          <br>
+          <p class="subtitle content is-large">A confidential report means  that a user's login information is neither used nor stored
+          upon making such a request. <br><br>It is important that the user be as clear as possible, since the authorites will
+          have no means of following up with them.</p>
+        </article>
+      </div>
+
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-info">
+          <p class="title">Report suspicious disposal</p>
+          <%# <p class="subtitle">With an image</p> %>
+          <figure class="image is-3by5">
+          <%= image_tag 'illegal-removebg-preview.png' %>
+          </figure>
+        </article>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<section class="hero is-large is-success">
+    <div class="hero-body">
+    <p class="title">
+      How does it all work behind the scenes?
+    </p>
+    <p class="subtitle content is-large">
+      The solution leaverages a variety of technologies. This includes geo-spatial technologies <br>
+      such as geo-fencing, geo-rereferencing(GPS) machine learning and statistical analysis.
+
+    </p>
+  </div>
+</section>
+
+
+<section>
+  <div class="tile is-ancestor">
+
+    <div class="tile is-vertical is-12">
+      
+
+      <div class="tile">
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-info">
+            <p class="title">Area designated with the use of Geo-fencing</p>
+            <p class="subtitle">This enables a predefined area operation for a set of trucks, see interaction below</p>
+            <figure class="">
+              <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1JWmWVnfJmDJX2dMXEdl0hQV1QKrLQ3AM&ehbc=2E312F" width="640" height="480"></iframe>
+            </figure>
+          </article>
+        </div>
+
+        <div class="tile is-parent is-vertical">
+          <article class="tile is-child notification is-primary">
+            <p class="title">What is geo-fencing? </p>
+            <br>
+            <p class="subtitle content is-large">
+            Geo-fencing is a feature in a software program that uses GPS
+              to define geographical boundaries.</p>
+          </article>
+          <article class="tile is-child notification is-primary">
+            <p class="title">Why is it important? </p>
+            <br>
+            <p class="subtitle content is-large">
+
+                It creates a modular approach to collection of waste as the areas are dynamic in nature
+                changing based on the AI's design. 
+        
+            </p>
+          </article>
+        </div>
+
+      </div>
+  </div>
+
+</section>
+
+
+
+<section>
+  <div class="tile is-ancestor">
+    <div class="tile is-vertical is-12">
+      <div class="tile">
+
+
+
+        <div class="tile is-parent is-vertical">
+          <article class="tile is-child notification is-primary">
+            <p class="title">What's in the Dashboard?</p>
+            <br>
+            <p class="subtitle content is-large">
+              The Dashboard consists of all the information that the system posseses and can be reported as a metric. </p>
+          </article>
+          <article class="tile is-child notification is-primary">
+            <p class="title">Why is it important?</p>
+            <br>
+            <p class="subtitle content is-large">
+            The information collected is pimarily used to foster machine learning to prioritise pick-up location and plan routes. 
+            </p>
+          </article>
+        </div>
+
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-info">
+            <p class="title">Collection agent's Dashboard</p> 
+            <p class="subtitle">The main view of behind the scenes.</p>
+            <figure class="">
+            <%= image_tag 'dashboard1_edited.png' %>
+            </figure>
+          </article>
+        </div>
+
+
+      </div>
+  </div>
+
+</section>
+
+
+<section>
+  <div class="tile is-ancestor">
+    <div class="tile is-vertical is-12">
+      <div class="tile">
+
+
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-info">
+            <p class="title">Auxillary Metrics</p>
+            <p class="subtitle">Supplimentary information</p>
+            <figure class="">
+            <%= image_tag 'dashboard2.png' %>
+            </figure>
+          </article>
+        </div>
+
+        <div class="tile is-parent is-vertical">
+          <article class="tile is-child notification is-primary">
+            <p class="title">Auxillary Metrics</p>
+            <br>
+            <p class="subtitle content is-large">
+              This section of the Dashboard discusses information that in not a functional requirement. None the less pertinent.</p>
+          </article>
+          <article class="tile is-child notification is-success">
+            <p class="title">Why is it important?</p>
+            <br>
+            <p class="subtitle content is-large">
+              This section help the collection agent to see how EcoCleanJa is impacting the business that it has integrated with.
+            </p>
+          </article>
+        </div>
+
+
+      </div>
+  </div>
+
+</section>
+
+
+<section class="hero is-medium is-primary my-4">
+    <div class="hero-body">
+    <p class="title">
+      What Are you Wait for? <br>
+      Visit the appstore or playstore and download the app today and contribute to a cleaner Jamaica!
+    </p>
+
+  </div>
+</section>
+
+<%# FOOTER %>
+<%= render 'footer' %>
